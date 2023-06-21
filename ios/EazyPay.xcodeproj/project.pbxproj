@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* EazyPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EazyPayTests.m */; };
+		0455EB6E273AAEF3004F5ADC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0455EB6D273AAEF3004F5ADC /* GoogleService-Info.plist */; };
+		04C68C7A27395DF3006A39A6 /* EazyPay.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 04C68C7927395DF3006A39A6 /* EazyPay.xcworkspace */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		74423DAE5B61A6510F26EC2D /* libPods-EazyPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA0F1E95C236CE021C2BD64 /* libPods-EazyPay.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82F6611226F498BD005E0E3C /* roboto-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8274DB8626B3EE3800E7F85D /* roboto-bold.ttf */; };
+		82F6611526F498CA005E0E3C /* roboto-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8274DB8326B3EE3500E7F85D /* roboto-medium.ttf */; };
+		82F6611626F498D1005E0E3C /* roboto-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8274DB8426B3EE3700E7F85D /* roboto-light.ttf */; };
+		82F6611726F498D7005E0E3C /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8274DB8526B3EE3800E7F85D /* roboto-regular.ttf */; };
+		8C3E3BF0BF95F5CFDB91DB18 /* libPods-EazyPay-EazyPayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB90C213DEA5FC76A3EEBBDA /* libPods-EazyPay-EazyPayTests.a */; };
+		1CB9A12A5F3747529251DE7A /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68FF36FFBB09430BB5F66907 /* Outfit-Bold.ttf */; };
+		06EF2FFD26D7473BADF37F6A /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 210307BC8D3E4AC6AEAAA941 /* Outfit-Medium.ttf */; };
+		6194B081FBA9493EAE56F4C4 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1742EBBD420411BB003AA79 /* Outfit-Regular.ttf */; };
+		763206C38532474699ED15CC /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E15DA5AABD9141D4B6E24703 /* Outfit-SemiBold.ttf */; };
+		3EBADAC86C214270B79073C3 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C05A164EF2B44FC8B0855112 /* AvenirNextLTPro-Bold.otf */; };
+		7C85DC7C80574EAF86EF8AE7 /* AvenirNextLTPro-BoldCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBE9509420254BB5847DBAA3 /* AvenirNextLTPro-BoldCn.otf */; };
+		A049F17C9FA44A42A7A86562 /* AvenirNextLTPro-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94D008324AD24F6BA593EF6F /* AvenirNextLTPro-Demi.otf */; };
+		D96C6067330C484F959844D7 /* AvenirNextLTPro-DemiCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AC076BA93184CF2982F96B7 /* AvenirNextLTPro-DemiCn.otf */; };
+		45FD127BB75C423B9CC794BB /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756839CCE3934B75B8C97FAE /* AvenirNextLTPro-It.otf */; };
+		D9A6E5CC524D49BF9E1B159B /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F53C67B389DF453CB084378B /* AvenirNextLTPro-Regular.otf */; };
+		D5C30EC0EF0D471EBCEA63E9 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6131DC4CD8547E4889E1A20 /* Lato-Bold.ttf */; };
+		E7AC0D3B89D343B3A2631F16 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D6E531F82247FB8A65E2B5 /* Lato-Light.ttf */; };
+		6A070B9EC86043C4ACD4F1CD /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD4FAF51673429AA7A286D4 /* Lato-Regular.ttf */; };
+		01C6E32FA49F428C8343F4E5 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C90EEA12535342CFBDEC12CA /* Lato-Thin.ttf */; };
+		45A734D4BA724A25B376CC40 /* Calibri Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A127B5817ADD49B4AB2E4D6E /* Calibri Bold Italic.ttf */; };
+		9DA034DE20B34D80A9E540D0 /* Calibri Bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FA87EE0839364018828A41E3 /* Calibri Bold.TTF */; };
+		BF3D2A402C634A6090A66ED1 /* Calibri Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35D76EEFF395415289D151F4 /* Calibri Light.ttf */; };
+		2CCAEFA4152D4159B550C006 /* Calibri Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE53FD854AC141249CC91E72 /* Calibri Regular.ttf */; };
+		F13FD209945043EB8225AC11 /* Calibri Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B9B1731D6749F0ADEB214C /* Calibri Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = EazyPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* EazyPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EazyPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EazyPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EazyPayTests.m; sourceTree = "<group>"; };
+		0455EB6D273AAEF3004F5ADC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EazyPay/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04C68C7927395DF3006A39A6 /* EazyPay.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = EazyPay.xcworkspace; sourceTree = "<group>"; };
+		04CCB6E7E0754E3FA0F4DF6D /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EazyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EazyPay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EazyPay/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EazyPay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EazyPay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EazyPay/main.m; sourceTree = "<group>"; };
+		13D222F3083C41789A2DE0CC /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		2322AF46F6B64FFCABBFE1F1 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		23A3F8CF35DD4B25BC062B02 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		25966A431881ABF1C795C876 /* Pods-EazyPay-EazyPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyPay-EazyPayTests.debug.xcconfig"; path = "Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2994DB2D04BB47CC9839F002 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		2A94834EF80848EEBB007C2C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		365692E8067C43D39C15326E /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		3678EB97B0BB4E79A79D6743 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		3D16F5D8501A48A8815ACB20 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		3FA6F639CAE04E058630885C /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		48FDD213F99F4D46A0D3750D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		4FDE3321C2E0537F8F0640AF /* Pods-EazyPay-EazyPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyPay-EazyPayTests.release.xcconfig"; path = "Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FA0F1E95C236CE021C2BD64 /* libPods-EazyPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EazyPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F842B50AB44A988CF6447E /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		7002CA006DB2415088C569A3 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		7114AF540BF44C9DBA43D010 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		77840481C50F4B60DC4A15F9 /* Pods-EazyPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyPay.debug.xcconfig"; path = "Target Support Files/Pods-EazyPay/Pods-EazyPay.debug.xcconfig"; sourceTree = "<group>"; };
+		7919D75D61D642579BE8A8E8 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EazyPay/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8274DB8326B3EE3500E7F85D /* roboto-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "roboto-medium.ttf"; path = "../assets/fonts/roboto-medium.ttf"; sourceTree = "<group>"; };
+		8274DB8426B3EE3700E7F85D /* roboto-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "roboto-light.ttf"; path = "../assets/fonts/roboto-light.ttf"; sourceTree = "<group>"; };
+		8274DB8526B3EE3800E7F85D /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "roboto-regular.ttf"; path = "../assets/fonts/roboto-regular.ttf"; sourceTree = "<group>"; };
+		8274DB8626B3EE3800E7F85D /* roboto-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "roboto-bold.ttf"; path = "../assets/fonts/roboto-bold.ttf"; sourceTree = "<group>"; };
+		9EADD566E1864B4D91F36836 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B5827832FF6E4169913D3BA2 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		BE910E17455E9AB74DCBCD0A /* Pods-EazyPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyPay.release.xcconfig"; path = "Target Support Files/Pods-EazyPay/Pods-EazyPay.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB90C213DEA5FC76A3EEBBDA /* libPods-EazyPay-EazyPayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EazyPay-EazyPayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE80B31E65364A98AB954C54 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		FEF72A28B6E442C1AD8C7078 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		68FF36FFBB09430BB5F66907 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; name = "Outfit-Bold.ttf"; path = "../assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		210307BC8D3E4AC6AEAAA941 /* Outfit-Medium.ttf */ = {isa = PBXFileReference; name = "Outfit-Medium.ttf"; path = "../assets/fonts/Outfit-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1742EBBD420411BB003AA79 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; name = "Outfit-Regular.ttf"; path = "../assets/fonts/Outfit-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E15DA5AABD9141D4B6E24703 /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; name = "Outfit-SemiBold.ttf"; path = "../assets/fonts/Outfit-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C05A164EF2B44FC8B0855112 /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Bold.otf"; path = "../assets/fonts/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBE9509420254BB5847DBAA3 /* AvenirNextLTPro-BoldCn.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-BoldCn.otf"; path = "../assets/fonts/AvenirNextLTPro-BoldCn.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94D008324AD24F6BA593EF6F /* AvenirNextLTPro-Demi.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Demi.otf"; path = "../assets/fonts/AvenirNextLTPro-Demi.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AC076BA93184CF2982F96B7 /* AvenirNextLTPro-DemiCn.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-DemiCn.otf"; path = "../assets/fonts/AvenirNextLTPro-DemiCn.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		756839CCE3934B75B8C97FAE /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-It.otf"; path = "../assets/fonts/AvenirNextLTPro-It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F53C67B389DF453CB084378B /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Regular.otf"; path = "../assets/fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6131DC4CD8547E4889E1A20 /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7D6E531F82247FB8A65E2B5 /* Lato-Light.ttf */ = {isa = PBXFileReference; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AD4FAF51673429AA7A286D4 /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C90EEA12535342CFBDEC12CA /* Lato-Thin.ttf */ = {isa = PBXFileReference; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A127B5817ADD49B4AB2E4D6E /* Calibri Bold Italic.ttf */ = {isa = PBXFileReference; name = "Calibri Bold Italic.ttf"; path = "../assets/fonts/Calibri Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA87EE0839364018828A41E3 /* Calibri Bold.TTF */ = {isa = PBXFileReference; name = "Calibri Bold.TTF"; path = "../assets/fonts/Calibri Bold.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35D76EEFF395415289D151F4 /* Calibri Light.ttf */ = {isa = PBXFileReference; name = "Calibri Light.ttf"; path = "../assets/fonts/Calibri Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE53FD854AC141249CC91E72 /* Calibri Regular.ttf */ = {isa = PBXFileReference; name = "Calibri Regular.ttf"; path = "../assets/fonts/Calibri Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1B9B1731D6749F0ADEB214C /* Calibri Bold.ttf */ = {isa = PBXFileReference; name = "Calibri Bold.ttf"; path = "../assets/fonts/Calibri Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3E3BF0BF95F5CFDB91DB18 /* libPods-EazyPay-EazyPayTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74423DAE5B61A6510F26EC2D /* libPods-EazyPay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* EazyPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* EazyPayTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = EazyPayTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* EazyPay */ = {
+			isa = PBXGroup;
+			children = (
+				0455EB6D273AAEF3004F5ADC /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = EazyPay;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5FA0F1E95C236CE021C2BD64 /* libPods-EazyPay.a */,
+				FB90C213DEA5FC76A3EEBBDA /* libPods-EazyPay-EazyPayTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46C1861AC51B4847AF0CF802 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5827832FF6E4169913D3BA2 /* AntDesign.ttf */,
+				04CCB6E7E0754E3FA0F4DF6D /* Entypo.ttf */,
+				9EADD566E1864B4D91F36836 /* EvilIcons.ttf */,
+				7002CA006DB2415088C569A3 /* Feather.ttf */,
+				7919D75D61D642579BE8A8E8 /* FontAwesome.ttf */,
+				3FA6F639CAE04E058630885C /* FontAwesome5_Brands.ttf */,
+				365692E8067C43D39C15326E /* FontAwesome5_Regular.ttf */,
+				2A94834EF80848EEBB007C2C /* FontAwesome5_Solid.ttf */,
+				2322AF46F6B64FFCABBFE1F1 /* Fontisto.ttf */,
+				48FDD213F99F4D46A0D3750D /* Foundation.ttf */,
+				3D16F5D8501A48A8815ACB20 /* Ionicons.ttf */,
+				2994DB2D04BB47CC9839F002 /* MaterialCommunityIcons.ttf */,
+				FEF72A28B6E442C1AD8C7078 /* MaterialIcons.ttf */,
+				67F842B50AB44A988CF6447E /* Octicons.ttf */,
+				7114AF540BF44C9DBA43D010 /* Roboto_medium.ttf */,
+				13D222F3083C41789A2DE0CC /* Roboto.ttf */,
+				FE80B31E65364A98AB954C54 /* rubicon-icon-font.ttf */,
+				3678EB97B0BB4E79A79D6743 /* SimpleLineIcons.ttf */,
+				23A3F8CF35DD4B25BC062B02 /* Zocial.ttf */,
+				68FF36FFBB09430BB5F66907 /* Outfit-Bold.ttf */,
+				210307BC8D3E4AC6AEAAA941 /* Outfit-Medium.ttf */,
+				D1742EBBD420411BB003AA79 /* Outfit-Regular.ttf */,
+				E15DA5AABD9141D4B6E24703 /* Outfit-SemiBold.ttf */,
+				C05A164EF2B44FC8B0855112 /* AvenirNextLTPro-Bold.otf */,
+				FBE9509420254BB5847DBAA3 /* AvenirNextLTPro-BoldCn.otf */,
+				94D008324AD24F6BA593EF6F /* AvenirNextLTPro-Demi.otf */,
+				4AC076BA93184CF2982F96B7 /* AvenirNextLTPro-DemiCn.otf */,
+				756839CCE3934B75B8C97FAE /* AvenirNextLTPro-It.otf */,
+				F53C67B389DF453CB084378B /* AvenirNextLTPro-Regular.otf */,
+				D6131DC4CD8547E4889E1A20 /* Lato-Bold.ttf */,
+				F7D6E531F82247FB8A65E2B5 /* Lato-Light.ttf */,
+				4AD4FAF51673429AA7A286D4 /* Lato-Regular.ttf */,
+				C90EEA12535342CFBDEC12CA /* Lato-Thin.ttf */,
+				A127B5817ADD49B4AB2E4D6E /* Calibri Bold Italic.ttf */,
+				FA87EE0839364018828A41E3 /* Calibri Bold.TTF */,
+				35D76EEFF395415289D151F4 /* Calibri Light.ttf */,
+				EE53FD854AC141249CC91E72 /* Calibri Regular.ttf */,
+				C1B9B1731D6749F0ADEB214C /* Calibri Bold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				04C68C7927395DF3006A39A6 /* EazyPay.xcworkspace */,
+				8274DB8626B3EE3800E7F85D /* roboto-bold.ttf */,
+				8274DB8426B3EE3700E7F85D /* roboto-light.ttf */,
+				8274DB8326B3EE3500E7F85D /* roboto-medium.ttf */,
+				8274DB8526B3EE3800E7F85D /* roboto-regular.ttf */,
+				13B07FAE1A68108700A75B9A /* EazyPay */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* EazyPayTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9E330966CE9C687543B5F854 /* Pods */,
+				46C1861AC51B4847AF0CF802 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* EazyPay.app */,
+				00E356EE1AD99517003FC87E /* EazyPayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E330966CE9C687543B5F854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77840481C50F4B60DC4A15F9 /* Pods-EazyPay.debug.xcconfig */,
+				BE910E17455E9AB74DCBCD0A /* Pods-EazyPay.release.xcconfig */,
+				25966A431881ABF1C795C876 /* Pods-EazyPay-EazyPayTests.debug.xcconfig */,
+				4FDE3321C2E0537F8F0640AF /* Pods-EazyPay-EazyPayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* EazyPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EazyPayTests" */;
+			buildPhases = (
+				A937940AA58C350FC81DECCE /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				250FF1CD57CCAED6BA2724D1 /* [CP] Embed Pods Frameworks */,
+				F09D6D5B7CFA37C608BE6F98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = EazyPayTests;
+			productName = EazyPayTests;
+			productReference = 00E356EE1AD99517003FC87E /* EazyPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* EazyPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EazyPay" */;
+			buildPhases = (
+				C12B5772D174F8C58248D7EB /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				05C3B30889C1AE7DE755D635 /* [CP] Embed Pods Frameworks */,
+				1271759BFB54FCBF284B5C4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EazyPay;
+			productName = EazyPay;
+			productReference = 13B07F961A680F5B00A75B9A /* EazyPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EazyPay" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* EazyPay */,
+				00E356ED1AD99517003FC87E /* EazyPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6611726F498D7005E0E3C /* roboto-regular.ttf in Resources */,
+				0455EB6E273AAEF3004F5ADC /* GoogleService-Info.plist in Resources */,
+				04C68C7A27395DF3006A39A6 /* EazyPay.xcworkspace in Resources */,
+				82F6611626F498D1005E0E3C /* roboto-light.ttf in Resources */,
+				82F6611526F498CA005E0E3C /* roboto-medium.ttf in Resources */,
+				82F6611226F498BD005E0E3C /* roboto-bold.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1CB9A12A5F3747529251DE7A /* Outfit-Bold.ttf in Resources */,
+				06EF2FFD26D7473BADF37F6A /* Outfit-Medium.ttf in Resources */,
+				6194B081FBA9493EAE56F4C4 /* Outfit-Regular.ttf in Resources */,
+				763206C38532474699ED15CC /* Outfit-SemiBold.ttf in Resources */,
+				3EBADAC86C214270B79073C3 /* AvenirNextLTPro-Bold.otf in Resources */,
+				7C85DC7C80574EAF86EF8AE7 /* AvenirNextLTPro-BoldCn.otf in Resources */,
+				A049F17C9FA44A42A7A86562 /* AvenirNextLTPro-Demi.otf in Resources */,
+				D96C6067330C484F959844D7 /* AvenirNextLTPro-DemiCn.otf in Resources */,
+				45FD127BB75C423B9CC794BB /* AvenirNextLTPro-It.otf in Resources */,
+				D9A6E5CC524D49BF9E1B159B /* AvenirNextLTPro-Regular.otf in Resources */,
+				D5C30EC0EF0D471EBCEA63E9 /* Lato-Bold.ttf in Resources */,
+				E7AC0D3B89D343B3A2631F16 /* Lato-Light.ttf in Resources */,
+				6A070B9EC86043C4ACD4F1CD /* Lato-Regular.ttf in Resources */,
+				01C6E32FA49F428C8343F4E5 /* Lato-Thin.ttf in Resources */,
+				45A734D4BA724A25B376CC40 /* Calibri Bold Italic.ttf in Resources */,
+				9DA034DE20B34D80A9E540D0 /* Calibri Bold.TTF in Resources */,
+				BF3D2A402C634A6090A66ED1 /* Calibri Light.ttf in Resources */,
+				2CCAEFA4152D4159B550C006 /* Calibri Regular.ttf in Resources */,
+				F13FD209945043EB8225AC11 /* Calibri Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		05C3B30889C1AE7DE755D635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay/Pods-EazyPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay/Pods-EazyPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EazyPay/Pods-EazyPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1271759BFB54FCBF284B5C4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay/Pods-EazyPay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay/Pods-EazyPay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EazyPay/Pods-EazyPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		250FF1CD57CCAED6BA2724D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A937940AA58C350FC81DECCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EazyPay-EazyPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12B5772D174F8C58248D7EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EazyPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09D6D5B7CFA37C608BE6F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EazyPay-EazyPayTests/Pods-EazyPay-EazyPayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* EazyPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* EazyPay */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25966A431881ABF1C795C876 /* Pods-EazyPay-EazyPayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EazyPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EazyPay.app/EazyPay";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FDE3321C2E0537F8F0640AF /* Pods-EazyPay-EazyPayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = EazyPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EazyPay.app/EazyPay";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77840481C50F4B60DC4A15F9 /* Pods-EazyPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KEZ262M6Y3;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EazyPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = EazyPay;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE910E17455E9AB74DCBCD0A /* Pods-EazyPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KEZ262M6Y3;
+				INFOPLIST_FILE = EazyPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = EazyPay;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EazyPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EazyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EazyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

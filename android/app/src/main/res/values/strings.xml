@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EazyPay</string>
+    <string name="facebook_app_id">1118628092028412</string>
+    <string name="fb_login_protocol_scheme">fb1118628092028412</string>
+    <string name="facebook_client_token">a4800e4f4d4ba8ec730bb29f66f014b9</string>
+
+</resources>

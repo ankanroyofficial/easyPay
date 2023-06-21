@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>88702495308-1ts4qql5i03pmnv1qas5lq82k02jsstq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.88702495308-1ts4qql5i03pmnv1qas5lq82k02jsstq</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>88702495308-1o55bd21l5c117qicaumkgjcrbb5u8dv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAarh42RZmbw-wrdJU3jiuTrCCoJk-9OOg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>88702495308</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.gurutasker</string>
+	<key>PROJECT_ID</key>
+	<string>gurutasker-30023</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gurutasker-30023.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:88702495308:ios:b1596e1e55e1f17538e2e9</string>
+</dict>
+</plist>

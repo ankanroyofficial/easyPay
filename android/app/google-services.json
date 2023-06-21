@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "88702495308",
+    "project_id": "gurutasker-30023",
+    "storage_bucket": "gurutasker-30023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88702495308:android:35e39e43f389057238e2e9",
+        "android_client_info": {
+          "package_name": "com.gurutasker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88702495308-1o55bd21l5c117qicaumkgjcrbb5u8dv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurutasker",
+            "certificate_hash": "6ecc5ead5af62d52b15cf4e755fdab831503a12e"
+          }
+        },
+        {
+          "client_id": "88702495308-4sn2nvf7sp7cee7q90ntt23b321pfo9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurutasker",
+            "certificate_hash": "6419d1045f5af65bfb0cc79c5c18c41fcac0854e"
+          }
+        },
+        {
+          "client_id": "88702495308-qenjtijdebsihreap9032q300j9ekjvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurutasker",
+            "certificate_hash": "c9e9e48482f14cb673d3133cce907f071c60b696"
+          }
+        },
+        {
+          "client_id": "88702495308-69lg4o4r044fgdv0ga91hsfqafuhihgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxo5oCyOgYf2_HlsquDKJPDnlM7fXaDGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88702495308-69lg4o4r044fgdv0ga91hsfqafuhihgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "88702495308-1ts4qql5i03pmnv1qas5lq82k02jsstq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.gurutasker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

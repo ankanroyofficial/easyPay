@@ -1,0 +1,77 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/AvenirNextLTPro-Bold.otf",
+      "sha1": "ac8ad64356a006a6e701d70c3bbf3f6011f91c98"
+    },
+    {
+      "path": "assets/fonts/AvenirNextLTPro-BoldCn.otf",
+      "sha1": "d3ed3e81f2c54c1579d74bf4e77794ecb13d281a"
+    },
+    {
+      "path": "assets/fonts/AvenirNextLTPro-Demi.otf",
+      "sha1": "9f5f8199b646d5fcda786222d96bbfd618de48b8"
+    },
+    {
+      "path": "assets/fonts/AvenirNextLTPro-DemiCn.otf",
+      "sha1": "b79408b63afe4addf8a2862496f541ab84f0e074"
+    },
+    {
+      "path": "assets/fonts/AvenirNextLTPro-It.otf",
+      "sha1": "602fc8cdb3bd9e5fe83b6ea19e0762a394f287f3"
+    },
+    {
+      "path": "assets/fonts/AvenirNextLTPro-Regular.otf",
+      "sha1": "5431b8a80300b8dd7014f2f1d05c66b3f0d89f38"
+    },
+    {
+      "path": "assets/fonts/Lato-Bold.ttf",
+      "sha1": "542498221d97bee5bdbccf86ee8890bf8e8005c9"
+    },
+    {
+      "path": "assets/fonts/Lato-Light.ttf",
+      "sha1": "ad0d178564445a535b15d417f5b18019923d3bab"
+    },
+    {
+      "path": "assets/fonts/Lato-Regular.ttf",
+      "sha1": "e923c72eda5e50a87e18ff5c71e9ef4b3b6455a3"
+    },
+    {
+      "path": "assets/fonts/Lato-Thin.ttf",
+      "sha1": "07290446bee3f81ce501a3c3dbfde6097c70ca15"
+    },
+    {
+      "path": "assets/fonts/Outfit-Bold.ttf",
+      "sha1": "98054af253c6e858d9ec035166ac7a00c1a197e6"
+    },
+    {
+      "path": "assets/fonts/Outfit-Medium.ttf",
+      "sha1": "c935c6408aea96cce77b20fb046041cff2e470b7"
+    },
+    {
+      "path": "assets/fonts/Outfit-Regular.ttf",
+      "sha1": "335905736a2c79eefdcc8e20bf756ea589074d18"
+    },
+    {
+      "path": "assets/fonts/Outfit-SemiBold.ttf",
+      "sha1": "828d76f5963c31e34e0981a4c707b34c5b8a399b"
+    },
+    {
+      "path": "assets/fonts/roboto-bold.ttf",
+      "sha1": "c93cb6eb6a75a7f4312fd2bafe5bab7fbadf12d9"
+    },
+    {
+      "path": "assets/fonts/roboto-light.ttf",
+      "sha1": "f23a0413fdd70117752cf73679d2c5867095eaac"
+    },
+    {
+      "path": "assets/fonts/roboto-medium.ttf",
+      "sha1": "620481374c705f0e6e387d281e66a2b250611445"
+    },
+    {
+      "path": "assets/fonts/roboto-regular.ttf",
+      "sha1": "89e7bf27190d62c7b508dc92c7012c1180458f4e"
+    }
+  ]
+}
